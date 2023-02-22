@@ -3,9 +3,12 @@
 # Execution
 Download repository:
 ```sh
-git clone https://github.com/MasaYan24/base_ubuntu.git
+git clone https://github.com/MasaYan24/base_ubuntu_user.git
 ```
-Then execute `base_ubuntu/install.sh`
+Then execute
+```sh
+base_ubuntu/install.sh
+```
 
 Or execute following steps one by one.
 

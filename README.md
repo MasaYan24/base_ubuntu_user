@@ -7,7 +7,8 @@ git clone https://github.com/MasaYan24/base_ubuntu_user.git
 ```
 Then execute
 ```sh
-base_ubuntu_user/install.sh
+cd base_ubuntu_user
+sh install.sh
 ```
 
 Or execute following steps one by one.

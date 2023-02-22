@@ -17,7 +17,7 @@ wget https://raw.githubusercontent.com/MasaYan24/zshrc/main/.zshrc -P $HOME/
 ## Developing tool
 wget https://repo.anaconda.com/miniconda/Miniconda3-latest-Linux-x86_64.sh \
   -O /tmp/miniconda.sh \
-  && sh /tmp/miniconda.sh -b -p $HOME/.miniconda
+  && sh miniconda.sh -b -p $HOME/.miniconda
 echo 'export PATH=$HOME/.miniconda/bin:$PATH' >> $HOME/.zshrc
 
 ## git setting

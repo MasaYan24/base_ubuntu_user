@@ -19,6 +19,9 @@ wget https://raw.githubusercontent.com/MasaYan24/zshrc/main/.zshrc -P $HOME/
 ## Developing tool
 wget https://repo.anaconda.com/miniconda/Miniconda3-latest-Linux-x86_64.sh -O miniconda.sh \
   && sh miniconda.sh -b -p $HOME/.miniconda
+$HOME/.miniconda/bin/conda --add channels conda-forge
+$HOME/.miniconda/bin/conda --remove channels defaults
+$HOME/.miniconda/bin/conda --show channels
 echo 'export PATH=$HOME/.miniconda/bin:$PATH' >> $HOME/.zshrc
 
 ## git setting

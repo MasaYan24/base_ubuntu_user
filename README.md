@@ -29,6 +29,10 @@ git clone https://github.com/zsh-users/zsh-autosuggestions ~/.zsh/zsh-autosugges
 sudo apt install -y ruby
 wget https://repo.anaconda.com/miniconda/Miniconda3-latest-Linux-x86_64.sh \
     -O /tmp/miniconda.sh && sh /tmp/miniconda.sh -b -p $HOME/miniconda
+$HOME/.miniconda/bin/conda --add channels conda-forge
+$HOME/.miniconda/bin/conda --remove channels defaults
+$HOME/.miniconda/bin/conda --show channels
+
 
 sudo apt install -y imagemagick
 git clone https://github.com/stefanhaustein/TerminalImageViewer.git /tmp/TIV \
